@@ -168,6 +168,9 @@ Sort reversed=false
 Speedbar Width=168
 View Style=Simple
 
+[Locale]
+BinaryUnitDialect=1
+
 [Sounds]
 Theme=freedesktop
 
@@ -179,4 +182,3 @@ activeForeground=227,225,238
 inactiveBackground=57,65,130
 inactiveBlend=161,169,177
 inactiveForeground=168,176,249
-
