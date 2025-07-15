@@ -5,6 +5,6 @@
 pkill -f -9 mpvpaper
 
 for monitor in $(hyprctl monitors -j | jq -r '.[] | .name'); do
-    mpvpaper -o "no-audio loop hwdec=auto scale=bilinear interpolation=no video-sync=display-resample panscan=1.0 video-scale-x=1.0 video-scale-y=1.0 video-align-x=0.5 video-align-y=0.5" "$monitor" "/mnt/d/me/wallpaper/honda-nsx-na1.1920x1080.mp4" --mpv-options '--load-scripts=no' &
+    mpvpaper -o "no-audio loop hwdec=auto scale=bilinear interpolation=no video-sync=display-resample panscan=1.0 video-scale-x=1.0 video-scale-y=1.0 video-align-x=0.5 video-align-y=0.5" "$monitor" "/mnt/d/wallpapers/honda-nsx-na1.1920x1080.mp4" --mpv-options '--load-scripts=no' &
     sleep 0.1
 done
