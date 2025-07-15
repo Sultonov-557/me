@@ -92,3 +92,4 @@ export PATH=$PATH:/home/sultonov/.spicetify
 export PATH="$PATH:$HOME/go/bin"
 
 eval "$(starship init zsh)"
+eval "$(dircolors ~/.dircolors)";
