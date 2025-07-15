@@ -136,7 +136,8 @@ ForegroundVisited=#ebb2ff
 ColorScheme=MaterialYouDark
 ColorSchemeHash=d2880a652300b7bcf450cd9dde06e80a6213ca7b
 LastUsedCustomAccentColor=184,117,220
-TerminalApplication=kitty -1
+TerminalApplication=kitty
+TerminalService=kitty.desktop
 XftHintStyle=hintslight
 XftSubPixel=none
 fixed=JetBrainsMono Nerd Font,11,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
@@ -182,4 +183,3 @@ activeForeground=228,226,227
 inactiveBackground=63,69,75
 inactiveBlend=161,169,177
 inactiveForeground=176,182,188
-
