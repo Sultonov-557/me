@@ -47,7 +47,7 @@
         "showBackground": false,
         "topLeftIcon": "spark",
         "tray": {
-            "monochromeIcons": true
+            "monochromeIcons": false
         },
         "utilButtons": {
             "showColorPicker": true,
@@ -58,7 +58,7 @@
         },
         "verbose": true,
         "weather": {
-            "city": "",
+            "city": "Urganch",
             "enable": true,
             "enableGPS": true,
             "fetchInterval": 10,
@@ -66,10 +66,10 @@
         },
         "workspaces": {
             "alwaysShowNumbers": false,
-            "monochromeIcons": true,
-            "showAppIcons": false,
-            "showNumberDelay": 300,
-            "shown": 6
+            "monochromeIcons": false,
+            "showAppIcons": true,
+            "showNumberDelay": 200,
+            "shown": 10
         }
     },
     "battery": {
