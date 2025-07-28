@@ -76,6 +76,7 @@ zstyle ':fzf-tab:complete:__zoxide_z:*' fzf-preview 'ls --color $realpath'
 alias ls='ls --color'
 alias vim='nvim'
 alias v='nvim'
+alias cd..="cd .."
 alias c='clear'
 
 # Shell integrations
