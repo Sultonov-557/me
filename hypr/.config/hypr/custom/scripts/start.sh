@@ -19,7 +19,7 @@ hyprctl dispatch workspace 2
 flatpak run app.zen_browser.zen &
 
 # Launch Yandex-Music in workspace 3
-sleep 1
+sleep 2
 hyprctl dispatch workspace 3
 yandex-music &
 
