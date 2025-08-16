@@ -24,6 +24,6 @@ hyprctl dispatch workspace 3
 yandex-music &
 
 # Launch Telegram in workspace 4
-sleep 1
+sleep 2
 hyprctl dispatch workspace 4
 telegram-desktop &
