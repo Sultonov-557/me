@@ -73,7 +73,7 @@ zstyle ':fzf-tab:complete:cd:*' fzf-preview 'ls --color $realpath'
 zstyle ':fzf-tab:complete:__zoxide_z:*' fzf-preview 'ls --color $realpath'
 
 # Aliases
-alias ls='ls --color'
+alias ls='eza'
 alias vim='nvim'
 alias v='nvim'
 alias cd..="cd .."
@@ -94,3 +94,7 @@ export PATH="$PATH:$HOME/go/bin"
 
 eval "$(starship init zsh)"
 eval "$(dircolors ~/.dircolors)";
+
+. "$HOME/.atuin/bin/env"
+
+eval "$(atuin init zsh --disable-up-arrow)"
