@@ -8,7 +8,7 @@ out vec4 fragColor;
 
 // Adjust this value for desired vibrancy/saturation
 // 0.0 = no change, 1.0 = very high saturation
-const float VIB_VIBRANCE = 1.3;
+const float VIB_VIBRANCE = 1.8;
 const vec3 VIB_RGB_BALANCE = vec3(1.0, 1.0, 1.0); // Keep at 1.0 for normal balance
 
 void main() {
