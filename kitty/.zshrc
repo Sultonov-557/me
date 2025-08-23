@@ -91,6 +91,7 @@ export BUN_INSTALL="$HOME/.bun"
 export PATH="$BUN_INSTALL/bin:$PATH"
 export PATH=$PATH:/home/sultonov/.spicetify
 export PATH="$PATH:$HOME/go/bin"
+export PATH="$HOME/.local/bin:$PATH"
 
 eval "$(starship init zsh)"
 eval "$(dircolors ~/.dircolors)";
