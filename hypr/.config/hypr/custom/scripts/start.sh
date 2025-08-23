@@ -6,6 +6,7 @@ while [[ -z "$(hyprctl monitors | grep 'Monitor ')" ]]; do
 done
 
 hyprshade on vibrancy
+mpvpaper "eDP-1" -o "no-audio loop" "/mnt/d/wallpapers/honda-nsx-na1.1920x1080.mp4" &
 
 # Launch Kitty in workspace 1
 hyprctl dispatch workspace 1
