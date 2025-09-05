@@ -16,9 +16,9 @@ done=move-content-display,25.04-convert-bool-showstatusbar-to-enum-showstatusbar
 mtime=1755186609
 
 [kwin.upd]
-ctime=1755844613
+ctime=1756372754
 done=25.04-convert-bool-showstatusbar-to-enum-showstatusbar,kwin-6.0-reset-active-mouse-screen,kwin-6.0-delete-desktop-switching-shortcuts,kwin-6.0-remove-breeze-tabbox-default,kwin-6.1-remove-gridview-expose-shortcuts
-mtime=1754423734
+mtime=1755963909
 
 [migrate-calendar-to-plugin-id.upd]
 ctime=1755844619
